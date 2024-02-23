@@ -1,0 +1,35 @@
+.enjoyTap{
+    background-color: rgb(253, 253, 185);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.enjoyTap a{
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width:200px; 
+    height:100%;
+    background-color: rgb(254, 252, 234);
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.enjoyTap img{
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.enjoyTap span{
+   margin-left: 5px;
+   color: black;
+   font-family: "omyu-pretty";
+   text-align: center;
+   margin-bottom: 5px;
+  }
+
+.enjoyTap .game{
+    padding: 20px;
+}
+
+

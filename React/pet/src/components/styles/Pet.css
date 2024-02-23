@@ -1,0 +1,159 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.animalListImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.animalDetailImg {
+    /* width: 500px; */
+    height: 500px;
+    object-fit: contain;
+}
+
+/* 상세페이지 */
+.flex-detail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.flex-detail-img {
+    /* display: flex-start; */
+    width: 500px;
+
+}
+
+.flex-detail-img img{
+    height: 550px;
+    width: 500px;
+    object-fit: contain;
+}
+
+.flex-detail-item {
+   /* display: flex-end; */
+   margin-left: 5%;
+}
+
+/* 펫 리스트 bootstrap 적용 전*/
+.pet-list-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.flex-list-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.flex-list-item {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 3%;
+ }
+
+.flex-list-img {
+    /* display: flex-start; */   
+}
+
+.flex-list-img a img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* 펫 리스트 bootstrap 적용 후*/
+.card-list-container {
+    margin-top: 20px;
+    justify-content: center;  
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card-button-container button {
+    margin-bottom: 20px;
+}
+
+.detailbtn{
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-family: "omyu-pretty";
+    font-weight: 700;
+    height: auto;
+    background-color: rgb(245, 210, 239);
+    color: rgb(147, 141, 249);
+}
+
+.custom-modal{
+    font-family: "omyu-pretty";
+}
+
+.callbtn{
+    
+    margin-top: 20px;
+    width: auto; 
+    height: auto;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.noSearch {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noSearch img {
+    margin-top: 5%;
+}
+
+.noSearch p {
+    margin-top: 5%;
+}
+
+.loading {
+    text-align: center;
+}
+
+.loading img {
+    margin-top: 20%;
+}
+
+
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background: url('./sole2.png');
+    background-size: 100% 100%;
+    color: white;
+    background-color: white;
+    padding-top: 10px;
+} 
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
+    padding-top: 10px;
+}

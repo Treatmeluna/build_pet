@@ -1,0 +1,169 @@
+.loginImg {
+    width: 7rem;
+    margin-bottom: 30%;
+  }
+  .imgDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .loginBox {
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 20rem;
+    height: 28rem;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: var(--background-color);
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: left;
+    z-index: -1;
+  }
+  .onClickButton {
+    width: 50%;
+    height: 2rem;
+    background-color: var(--background-color);
+    color: var(--button-color);
+    border: none;
+    border-bottom: 3px solid var(--button-color);
+    margin-bottom: 2rem;
+    font-size: 15px;
+  }
+  
+  .Button {
+    width: 50%;
+    height: 2rem;
+    background-color: var(--background-color);
+    color: var(--button-non-color);
+    border: none;
+    border-bottom: 3px solid var(--button-non-color);
+    margin-bottom: 2rem;
+    font-size: 15px;
+  }
+  .emailInput {
+    outline: none;
+    padding: 5px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--input-color);
+    margin-bottom: 1rem;
+    margin-top: 5px;
+  }
+  .loginInput {
+    outline: none;
+    padding: 5px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--input-color);
+    margin-bottom: 1.8rem;
+    margin-top: 5px;
+  }
+  .passwordInput {
+    outline: none;
+    padding: 5px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--input-color);
+    margin-bottom: 3rem;
+  }
+  .label {
+    font-size: 12px;
+  }
+  
+  .submitButton {
+    background-color: var(--button-color);
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .loginAnother {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .loginAnotherLine {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background-color: var(--input-color);
+    z-index: -1;
+  }
+  .loginAnotherTitle {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--button-non-color);
+    font-size: 9px;
+  }
+  .loginAnotherButtonBox {
+    display: flex;
+    justify-content: space-around;
+  }
+  .loginAnotherButton {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+  }
+  .main {
+    background-color: white;
+  }
+  .emailCheck {
+    border-radius: 5px;
+  }
+  .emailCheckDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .birthBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+  }
+  .birthBoxInput {
+    outline: none;
+    border: none;
+    width: 60px;
+    padding: 5px 0px;
+    border-bottom: 1px solid var(--input-color);
+  }
+  
+  button {
+    color: black;
+  }
+  select {
+    color: black;
+  }
+  select option[value=""][disabled] {
+    display: none;
+  }
+  
+  .ymd {
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid var(--input-color);
+    width: 100%;
+  }
+  
+  .dupEmail {
+    font-size: 12px;
+  }
+
+  .find {
+    display: flex;
+    justify-content: flex-end; 
+  }

@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 펫 리스트 bootstrap 적용 후*/
+.card-list-container {
+    margin-top: 20px;
+    justify-content: center;  
+}
+
+.card-img {
+    width: 98%;
+    height: 35vh;
+    object-fit: cover;
+}
+/* style={{height: '35vh', width:'98%', objectFit:'cover'}} */
+/* styles/SliderStyles.css */
+.Div {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 16px;
+    z-index: 99;
+    text-align: right;
+    line-height: 30px;
+}
+
+.DivPre {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 16px;
+    z-index: 99;
+    text-align: left;
+    line-height: 30px;
+}
+
+.StyledSlider {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.StyledSlider .slick-prev::before,
+.StyledSlider .slick-next::before {
+    opacity: 0;
+    display: none;
+}
+
+.StyledSlider .slick-slide div {
+    cursor: pointer;
+}
+
+.StyledCol {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.StyledContainer {
+    margin: 120px;
+    /* display: inline-flex;*/
+    /* margin-inline: 20%; */
+}

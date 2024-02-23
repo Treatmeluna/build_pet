@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.search input {
+    margin-right: 10px;
+    width: 200px;
+    outline: none;
+}
+
+.search select {
+    outline: none;
+}
+
+.search button {
+    border: 0px;
+}

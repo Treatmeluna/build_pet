@@ -1,0 +1,61 @@
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+  
+    
+}
+
+.container .wel{
+    font-family: "gangwon";
+    font-size: 80px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+
+
+button {
+    margin: 20px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    font-weight: 600;
+    height: auto;
+  
+}
+/* 
+.w-btn-outline {
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    height: auto;
+    background-color: white;
+} */
+
+.w-btn-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo2 {
+    background-color: antiquewhite;
+    color: rgb(111, 135, 111);
+}
+
+
+.w-btn-skin {
+    background-color: #f8e6e0;
+    color: #6e6e6e;
+}
